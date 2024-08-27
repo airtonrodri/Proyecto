@@ -21,9 +21,8 @@ public class controlador {
     public controlador(modelo Modelo, vista Vista) {
         this.Modelo = Modelo;
         this.Vista = Vista;
-// Suponiendo que este código está dentro de una clase y un método
 
-// Agrega el ActionListener al botón Enviar
+// Agregando el ActionListener al botón Enviar
         this.Vista.enviarPregunta(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
